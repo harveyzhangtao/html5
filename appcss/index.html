@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <title>Jfpal OEM Application</title>
+</head>
+<body>
+<header>
+
+        <li><a href="">信息编辑</a></li>
+        <li><a href="index.html" class="liAction">客户端信息</a></li>
+        <li><a href="next.html">客户端定制</a></li>
+
+</header>
+
+<div class="main">
+    <h3>App客户端信息修改</h3>
+    <div class="alert">
+        注意!        用户审核暂未通过。请先联系市场人员。
+    </div>
+    <form name="jfpal_agentbundle_appinfo" method="post" action="/adminappinfo/7">
+        <input type="hidden" name="_method" value="PUT">
+        <div id="jfpal_agentbundle_appinfo">
+            <div>
+                <label for="jfpal_agentbundle_appinfo_appname" class="required">APP名称</label>
+                <input type="text" id="jfpal_agentbundle_appinfo_appname" name="jfpal_agentbundle_appinfo[appname]" required="required" readonly="readonly" value="temp44281">
+            </div>
+            <div>
+                <label for="jfpal_agentbundle_appinfo_appkey" class="required">appkey</label>
+                <input type="text" id="jfpal_agentbundle_appinfo_appkey" name="jfpal_agentbundle_appinfo[appkey]" required="required" readonly="readonly" value="44281b489e80fb8b98d6d9229e8bf971">
+            </div>
+            <div>
+                <label for="jfpal_agentbundle_appinfo_appZhName" class="required">app中文名称</label>
+                <input type="text" id="jfpal_agentbundle_appinfo_appZhName" name="jfpal_agentbundle_appinfo[appZhName]" required="required" value="ww哇哇哇">
+            </div>
+            <div>
+                <label for="jfpal_agentbundle_appinfo_hotline" class="required">服务热线</label>
+                <input type="text" id="jfpal_agentbundle_appinfo_hotline" name="jfpal_agentbundle_appinfo[hotline]" required="required" value="1">
+            </div>
+            <div>
+                <label for="jfpal_agentbundle_appinfo_supportEmail" class="required">客服邮箱</label>
+                <input type="text" id="jfpal_agentbundle_appinfo_supportEmail" name="jfpal_agentbundle_appinfo[supportEmail]" required="required" value="1">
+            </div>
+            <div>
+                <label for="jfpal_agentbundle_appinfo_homepage" class="required">公司网站</label>
+                <input type="text" id="jfpal_agentbundle_appinfo_homepage" name="jfpal_agentbundle_appinfo[homepage]" required="required" value="11">
+            </div>
+            <div>
+                <label for="jfpal_agentbundle_appinfo_downloadUrl" class="required">下载地址</label>
+                <input type="text" id="jfpal_agentbundle_appinfo_downloadUrl" name="jfpal_agentbundle_appinfo[downloadUrl]" required="required" value="1">
+            </div>
+            <div>
+                <button type="submit" id="jfpal_agentbundle_appinfo_submit" name="jfpal_agentbundle_appinfo[submit]" class="buttonSubmit">更新</button>
+            </div>
+            <div>
+                <button type="submit" id="jfpal_agentbundle_appinfo_save_and_next" name="jfpal_agentbundle_appinfo[save_and_next]" class="buttonSubmit">next</button>
+            </div>
+            <input type="hidden" id="jfpal_agentbundle_appinfo__token" name="jfpal_agentbundle_appinfo[_token]" value="Z_t4UjHviqp6z2oxta31cqwJvbyxlfkLsPZ4qArOSaM">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

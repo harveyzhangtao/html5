@@ -1,0 +1,103 @@
+header{
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+}
+header li{
+    float: left;
+    margin-right: 100px;
+    list-style-type:none;
+}
+
+header li a{
+    font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    color: #969696;
+}
+
+div.main{
+    width: 600px;
+    margin: 0 auto;
+    color: #969696;
+}
+div.alert{
+    color: #ff0000;
+}
+div#jfpal_agentbundle_appinfo div{
+    margin-top: 20px;
+}
+
+div#jfpal_agentbundle_appinfo .required{
+    display:-moz-inline-box;
+    display:inline-block;
+    width:150px;
+}
+
+div#jfpal_agentbundle_appinfo input{
+    color: #555;
+    width: 430px;
+    padding: 3px 0px 3px 5px;
+    margin-top: 2px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    border: 1px solid #e5e5e5;
+    background: #fbfbfb;
+    height: 25px;
+    line-height:15px;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+    box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+}
+
+div#jfpal_agentbundle_appinfo button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #969696;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #969696;
+    box-shadow:inset 0px 1px 0px 0px #969696;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #969696), color-stop(1, #555) );
+    background:-moz-linear-gradient( center top, #969696 5%, #555 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');
+    border-radius:9px;
+    -webkit-border-radius:9px;
+    -moz-border-border-radius:9px;
+    border:1px solid #555;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height: 40px;
+    line-height: 30px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #555;
+}
+div#jfpal_agentbundle_appinfo button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #555), color-stop(1, #969696) );
+    background:-moz-linear-gradient( center top, #555 5%, #969696 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0');
+    background-color:#555;
+}
+div#jfpal_agentbundle_appinfo button:active {
+    position:relative;
+    top:1px;
+}
+.buttonSubmit{
+    float: left;
+    margin-right: 200px;
+}
+.radioinput{
+    width: 20px;
+    height: 20px;
+}
+.radioline{
+    display:-moz-inline-box;
+    display:inline-block;
+    width: 180px;
+    font: 25px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #969696;
+}
+.liAction{
+    background-color: #ddddff;
+}
